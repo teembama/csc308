@@ -6,7 +6,7 @@ int main(){
     printf("Enter your age:");
     scanf("%d", &age);
 
-    printf("Are you experienced?, Enter 1 if you are experienced and 0 if you are not experienced");
+    printf("Are you experienced?, Enter 1 if you are experienced and 0 if you are not experienced:\n");
     scanf("%d", &experience);
 
     if (experience == 1 & age >= 40){
